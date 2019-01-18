@@ -3,23 +3,16 @@ main {
   text-align: center;
   padding: 15px 0px 15px 0px;
   color: #696969;
-
 }
-#img-div {
-  max-width: 100vw;
 
-  width: 100%
-  margin: 0;
-  position:relative;
-
-}
-img {
+#img-div img {
   max-width: 100%;
   display: block;
-  width: 100%;
   height: auto;
   margin: auto;
-  border: 0;
-  object-fit: cover;
+}
 
+#img-div {
+  width: 100%;
+  position:relative;
 }
