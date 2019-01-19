@@ -1,18 +1,41 @@
 main {
+  margin: 30px auto;
   background: linear-gradient(to bottom, #edd9d7 0%,#ede4e3 100%);
   text-align: center;
-  padding: 15px 0px 15px 0px;
-  color: #696969;
+  padding: 15px;
+  color: #2b2b2b;
+  font-family: 'Arvo', serif;
+  border-radius: 10px;
 }
 
+#title {
+  font-family: 'Ubuntu', sans-serif;
+}
+#img-div {
+
+  position:relative;
+  /* background: red; */
+
+
+
+}
+
+figure {
+  max-width: 100%;
+  border-radius:15px;
+  border: white solid 20px;
+  background-color: white;
+}
 #img-div img {
   max-width: 100%;
+  /* border-radius: 25px; */
   display: block;
   height: auto;
-  margin: auto;
+  margin: 0 auto;
 }
 
-#img-div {
-  width: 100%;
-  position:relative;
+#img-caption {
+
+  margin: 15px;
+  background: white;
 }
