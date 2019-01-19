@@ -8,25 +8,22 @@ main {
   border-radius: 10px;
 }
 
-#title {
-  font-family: 'Ubuntu', sans-serif;
-}
-#img-div {
-
-  position:relative;
-  /* background: red; */
-
-
-
-}
-
 figure {
   max-width: 100%;
   border-radius:15px;
   border: white solid 20px;
   background-color: white;
 }
+
+#title {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#img-div {
+  min-width: 100%; 
+}
 #img-div img {
+
   max-width: 100%;
   /* border-radius: 25px; */
   display: block;
