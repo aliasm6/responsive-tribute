@@ -30,7 +30,7 @@ figure {
 
 #title {
   font-family: 'Ubuntu', sans-serif;
-  position: absolute;
+  /* position: absolute; */
 }
 
 #img-caption {
